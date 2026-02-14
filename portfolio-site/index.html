@@ -1,12 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Md Mahmudul Hasan Sumon | Portfolio</title>
+  <meta name="description" content="Personal portfolio of Md Mahmudul Hasan Sumon — Founder of Tranquility Travel, IT & Management student, web/mobile developer." />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is a basic portfolio site.</p>
+  <!-- Top Nav -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <span class="dot"></span>
+        <a href="#home">Sumon</a>
+      </div>
+
+      <nav class="menu" id="menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open Menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="badge">Founder & Owner — Tranquility Travel</p>
+        <h1>Md Mahmudul Hasan Sumon</h1>
+        <p class="subtitle">
+          IT & Management student (DIU) focused on web & mobile development, project management, and research-driven solutions.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+
+        <div class="quick">
+          <a href="mailto:sumonmahmud.cgc222@gmail.com">sumonmahmud.cgc222@gmail.com</a>
+          <span>•</span>
+          <a href="tel:+8801531731250">+88015-31731250</a>
+          <span>•</span>
+          <span>Mirpur-1, Dhaka</span>
+        </div>
+
+        <div class="links">
+          <a class="chip" target="_blank" rel="noreferrer" href="https://github.com/sumon-infinity">GitHub</a>
+          <a class="chip" target="_blank" rel="noreferrer" href="https://bit.ly/mahmudul-hasan-sumon">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Snapshot</h3>
+        <ul class="list">
+          <li><strong>Role:</strong> Business & tech leadership</li>
+          <li><strong>Focus:</strong> Flutter, Java, PHP, JS, Firebase</li>
+          <li><strong>Strength:</strong> Execution + data-driven decisions</li>
+          <li><strong>Availability:</strong> Open for internships & collaborations</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2>About</h2>
+      <p class="lead">
+        I’m a Bachelor’s student in Information Technology & Management at Daffodil International University and Founder & Owner of Tranquility Travel.
+        I build user-focused products, manage projects, and apply research and analytics to improve decision-making and outcomes.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section alt" id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Mobile & Web Development</h3>
+          <p>Flutter, Java, PHP, HTML, CSS, JavaScript, MySQL, Firebase, REST APIs, responsive design.</p>
+        </div>
+        <div class="card">
+          <h3>Project Management</h3>
+          <p>Planning, scheduling, task allocation, team coordination (ITM Summit 2023 & 2025).</p>
+        </div>
+        <div class="card">
+          <h3>Research & Data Analysis</h3>
+          <p>Data collection, cleaning, interpretation; mixed-methods research and stakeholder assessment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="t-item">
+          <div class="t-dot"></div>
+          <div class="t-content">
+            <h3>Branch In-Charge — Pran-RFL Group (Tasty Treat Division)</h3>
+            <p class="muted">2020 – 2021</p>
+            <ul>
+              <li>Managed branch operations, sales, and customer interactions to ensure smooth performance.</li>
+              <li>Led team coordination and improved communication flow across daily operations.</li>
+              <li>Built practical skills in retail operations and business analytics.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="t-item">
+          <div class="t-dot"></div>
+          <div class="t-content">
+            <h3>Founder & Owner — Tranquility Travel</h3>
+            <p class="muted">Ongoing</p>
+            <ul>
+              <li>Drive strategic growth, operations, and customer-focused innovation.</li>
+              <li>Combine business development with tech execution for sustainable solutions.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section alt" id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Daffodil International University</h3>
+          <p>B.Sc. in Information Technology & Management (2022–Present) • CGPA: 3.28</p>
+        </div>
+        <div class="card">
+          <h3>Universiti Sains Malaysia</h3>
+          <p>Exchange Programme Mobility (2024) — School of Management</p>
+        </div>
+        <div class="card">
+          <h3>CETYS Universidad, Mexico</h3>
+          <p>ISP: Sustainability & Competitiveness — Summer Mobility (2025)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Tranquility Travel (Website)</h3>
+          <p>Travel platform concept focusing on service clarity and customer flow.</p>
+          <div class="tags">
+            <span>HTML/CSS</span><span>JS</span><span>UI</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Daffodil Crisis Guard (Android App)</h3>
+          <p>Android app project with practical features and real-use focus.</p>
+          <div class="tags">
+            <span>Android</span><span>Java</span><span>Mobile</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>E-Governance in Bangladesh (Research)</h3>
+          <p>Mixed-methods analysis: planning, risk mitigation, and stakeholder perspectives.</p>
+          <div class="tags">
+            <span>Research</span><span>Data</span><span>Analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="note">
+        Tip: later you can add screenshots + live demo links for each project.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section alt" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="contact">
+        <div class="card">
+          <h3>Reach me</h3>
+          <p><strong>Email:</strong> <a href="mailto:sumonmahmud.cgc222@gmail.com">sumonmahmud.cgc222@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+8801531731250">+88015-31731250</a></p>
+          <p><strong>Location:</strong> Mirpur-1, Dhaka 1216</p>
+          <p><strong>GitHub:</strong> <a target="_blank" rel="noreferrer" href="https://github.com/sumon-infinity">sumon-infinity</a></p>
+          <p><strong>LinkedIn:</strong> <a target="_blank" rel="noreferrer" href="https://bit.ly/mahmudul-hasan-sumon">Profile</a></p>
+        </div>
+
+        <form class="card" onsubmit="return handleSubmit(event)">
+          <h3>Quick message</h3>
+          <label>
+            Name
+            <input required name="name" placeholder="Your name" />
+          </label>
+          <label>
+            Email
+            <input required type="email" name="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            Message
+            <textarea required name="message" rows="5" placeholder="Write your message..."></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send</button>
+          <p class="muted small" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Md Mahmudul Hasan Sumon. Built with GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
